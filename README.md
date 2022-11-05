@@ -1,6 +1,6 @@
 ## 🪙🔁 TRADE-CRYPTO
 
-## A Fork of [supernovahs](https://github.com/supernovahs)' Zero-Knowledge Voting Dapp
+## A simple frontend for trading cryptocurrencies that uses the Uniswap Swap widget.
 
 > 🌐 CONNECT TO A BLOCKCHAIN - Choose the blockchain you would like to swap cryptocurrencies with, such as *Ethereum*, *Optimism*, *Arbitrum*, and more
 
