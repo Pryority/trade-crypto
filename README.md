@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🪙🔁 TRADE-CRYPTO
 
-## Getting Started
+## A Fork of [supernovahs](https://github.com/supernovahs)' Zero-Knowledge Voting Dapp
 
-First, run the development server:
+> 🌐 CONNECT TO A BLOCKCHAIN - Choose the blockchain you would like to swap cryptocurrencies with, such as *Ethereum*, *Optimism*, *Arbitrum*, and more
+
+> 🔄 TRADE CRYPTO - Using the Uniswap protocol, select an ERC-20 token you would like to sell, such as *ETH*, and another to buy, for example *DAI*. Confirm and sign the transaction with the Uniswap widget to make a trade.
+
+### ![Demo Image 1](./tc-demo.png)
+
+---
+## 📦 Clone this dApp
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/pryority/trade-crypto.git
+```
+
+## 🔁 Run this dApp
+```
+yarn 
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Add custom blockchain objects to `CustomChains.js` (see Gnosis or Avalanche), then import them in `_app.js` to give users the option to connect with Rainbow Kit.
